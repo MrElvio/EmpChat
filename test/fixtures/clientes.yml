@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cpf: MyString
+  nome: MyString
+  data_niver: 2018-09-13
+  rg: MyString
+  sexo: false
+  descricao: MyString
+  cabine: one
+
+two:
+  cpf: MyString
+  nome: MyString
+  data_niver: 2018-09-13
+  rg: MyString
+  sexo: false
+  descricao: MyString
+  cabine: two

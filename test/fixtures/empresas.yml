@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cnpj: MyString
+  nome_fatasia: MyString
+  setor: MyString
+  endereco: MyString
+  status: false
+
+two:
+  cnpj: MyString
+  nome_fatasia: MyString
+  setor: MyString
+  endereco: MyString
+  status: false

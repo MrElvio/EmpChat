@@ -1,0 +1,15 @@
+dbdata:
+  image: postgres:10.4
+  volumes:
+    - /var/lib/postgresql/data
+  command: "true"
+
+db:
+  image: postgres:10.4
+  volumes_from:
+    - dbdata
+  ports:
+    - "5432:5432"
+  environment:
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: conecta
